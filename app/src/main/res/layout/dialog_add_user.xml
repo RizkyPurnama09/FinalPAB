@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/lavender">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukan Data Anda"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextNik"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="NIK"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Nama"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"/>
+    <EditText
+        android:id="@+id/editTextAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Alamat"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"/>
+    <EditText
+        android:id="@+id/editTextJk"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Jenis Kelamin"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"/>
+    <EditText
+        android:id="@+id/editTextAgama"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Agama"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"/>
+
+
+</LinearLayout>

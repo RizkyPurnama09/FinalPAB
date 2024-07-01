@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ikuti Sosial Media Kami"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/lavender"/>
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Untuk info-info Menarik Lainnya"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/lavender"
+        android:layout_below="@+id/txt"/>
+    <ImageView
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/txt2"
+        android:src="@drawable/ig"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="300dp"/>
+    <ImageView
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt1"
+        android:src="@drawable/tele"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="300dp"/>
+    <ImageView
+        android:id="@+id/bt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt2"
+        android:src="@drawable/wa"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="300dp"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/bt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt3"
+        android:src="@drawable/dc"
+        android:layout_marginRight="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>

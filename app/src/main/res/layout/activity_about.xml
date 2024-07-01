@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:background="@drawable/bg2">
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Kelompok"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/lavender"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/riz"
+        android:layout_below="@+id/txt"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="300dp"/>
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:text="Nama : Rizky Purnama Supratman"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/a2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a1"
+        android:text="Email : 2021081000@uniku.ac.id"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/a3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a2"
+        android:text="Kelas : TINFC-2021-04"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a3"
+        android:text="NIM : 20210810006"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/tir"
+        android:layout_below="@+id/img1"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="300dp" />
+    <TextView
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:text="Nama : Tiara Maharani Putri Hartini "
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1"
+        android:text="Email : 20210810083@uniku.ac.id"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b2"
+        android:text="Kelas : TINFC-2021-04"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b3"
+        android:text="NIM : 20210810083"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/sal"
+        android:layout_below="@+id/img2"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="300dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/c1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img2"
+        android:text="Nama : Faisal Hidayatullah"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/c2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c1"
+        android:text="Email : 20210810085@uniku.ac.id"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/c3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c2"
+        android:text="Kelas : TINFC-2021-04"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/c4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c3"
+        android:text="NIM : 20210810085"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/ab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img3"
+        android:text="PRODI TENIK INFORMATIKA S1"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/abc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ab"
+        android:text="FAKULTAS ILMU KOMPUTER"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/abcd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abc"
+        android:text="UNIVERSITAS KUNINGAN"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/abcde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abcd"
+        android:text="2024"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
